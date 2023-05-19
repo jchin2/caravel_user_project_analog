@@ -32,7 +32,9 @@
     // Use behavorial model with gate-level simulation
     `include "rtl/user_analog_project_wrapper.v"
     `include "rtl/user_analog_proj_example.v"
+    `include "rtl/wb_port_test.v"
 `else
     `include "user_analog_project_wrapper.v"
     `include "user_analog_proj_example.v"
+    `include "wb_port_test.v"
 `endif
